@@ -30,7 +30,7 @@ export const Portfolio = () => {
                 </div>
                 <div className="filters-content">
                     <div className="row portfolio-grid">
-                        <div className="grid-sizer col-md-3 col-lg-3"></div>
+                        {/* <div className="grid-sizer col-md-3 col-lg-3"></div>
                         <div className="col-lg-6 col-md-6 all following">
                             <div className="single_portfolio">
                                 <img className="img-fluid w-100" src={PictureOne} alt="" />
@@ -40,7 +40,7 @@ export const Portfolio = () => {
                                     <p>Art, Illustration</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-6 col-md-6 all latest popular upcoming">
                             <div className="single_portfolio">
                                 <img className="img-fluid w-100" src={PicturFour} alt="" />
