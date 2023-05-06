@@ -5,6 +5,7 @@ import { AboutMe } from '../../components/HomeComponents/AboutMe'
 import { ServiceSection } from '../../components/HomeComponents/ServiceSection'
 import { TestimonialArea } from '../../components/HomeComponents/TestimonialArea'
 import { Portfolio } from '../../components/HomeComponents/Portfolio'
+import { BlogArea } from '../../components/HomeComponents/BlogArea'
 
 export const Home = () => {
     return (
@@ -15,6 +16,7 @@ export const Home = () => {
             <ServiceSection />
             <TestimonialArea />
             <Portfolio />
+            <BlogArea />
         </React.Fragment>
     )
 }

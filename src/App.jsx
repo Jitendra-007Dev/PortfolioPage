@@ -12,6 +12,7 @@ import "./styles/css/style.css"
 import { Header } from './components/Global/Header';
 import { Home } from './pages/HomePage';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Footer } from './components/Global/Footer';
 
 
 
@@ -22,12 +23,11 @@ function App() {
 				<Header />
 				<Routes>
 					<Route
-						// key={index}
-						path={"/home"}
-						// exact={}
+						path={"/"}
 						element={<Home />}
 					/>
 				</Routes>
+				<Footer />
 			</Router>
 		</>
 	)
