@@ -14,7 +14,7 @@ export const Home = () => {
             <Statistics />
             <AboutMe />
             <ServiceSection />
-            <TestimonialArea />
+            {/* <TestimonialArea /> */}
             <Portfolio />
             <BlogArea />
         </React.Fragment>

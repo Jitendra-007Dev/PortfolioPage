@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutMe from "./../../assets/img/about-us.png.webp"
+import aboutMe from "./../../assets/img/about-us.png.png"
 
 export const AboutMe = () => {
     return (
@@ -8,7 +8,11 @@ export const AboutMe = () => {
                 <div className="row justify-content-start align-items-center">
                     <div className="col-lg-5">
                         <div className="about_img">
-                            <img className="" src={aboutMe} alt="" />
+                            <img
+                                // height={"100%"}
+                                // width={50vw}
+                                className="image-dim"
+                                src={aboutMe} alt="" />
                         </div>
                     </div>
                     <div className="offset-lg-1 col-lg-5">
